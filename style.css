@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2874f0;
+  align-items: center;
+  width: 100%;
+  height: 71px;
+}
+.flip {
+  margin-left: 25px;
+  position: relative;
+  left: 72px;
+  cursor: pointer;
+}
+.input {
+  padding-right: 60px;
+}
+.input {
+  width: 41%;
+  text-align: left;
+  line-height: 50px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.search-input {
+  height: 36px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  padding-left: 20px;
+}
+.fa-search {
+  position: absolute;
+  right: 620px;
+  top: 32px;
+  color: #2874f0;
+  cursor: pointer;
+}
+.login a {
+  text-decoration: none;
+  color: #2874f0;
+}
+.login {
+  border: 1px solid silver;
+  padding: 6px 30px;
+  background-color: white;
+  color: #2874f0;
+}
+.more a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.fa-angle-down {
+  color: white;
+  font-size: 13px;
+  padding: 2px;
+  cursor: pointer;
+}
+.cart a {
+  text-decoration: none;
+  color: white;
+  padding-right: 13px;
+}
+.category-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  text-align: center;
+  padding: 8px;
+}
+.category-img {
+  padding: 10px 0px;
+  cursor: pointer;
+  color: rgb(85, 83, 83);
+}
+
+.category-img img {
+  width: 64px;
+  height: 64px;
+}
+.category-img h4:hover {
+  color: #2874f0;
+}
+.banner img {
+  width: 100%;
+}
+.deals-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px;
+}
+.deals-primary {
+  display: flex;
+  flex-direction: column;
+  flex: 9;
+}
+.deals-secondary {
+  padding: 10px;
+}
+.deals-secondary img {
+  height: 318px;
+  width: 211px;
+  padding: 2px;
+}
+.primary {
+  display: flex;
+  justify-content: space-between;
+  flex: 9;
+  padding: 20px;
+  box-shadow: 0 1px 1px 0 rgba(29, 29, 29, 0.16);
+}
+.pri-1 {
+  display: flex;
+  gap: 4px;
+}
+.left .right {
+  padding: 3px;
+}
+.pri-2 button {
+  background-color: #2874f0;
+  color: white;
+  border-radius: 2px;
+  height: 28px;
+  border: none;
+  width: 76px;
+}
+.secondary {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 1px 1px 1px rgba(29, 29, 29, 0.16);
+}
+.men img {
+  height: 180px;
+}
+.master {
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  text-align: center;
+  padding: 5px;
+  line-height: 20px;
+}
+.green {
+  color: green;
+  font-size: 14px;
+}
+.gray {
+  color: gray;
+  font-size: 17px;
+}
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.mobile-primary {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0px 1px 4px 0 rgba(29, 29, 29, 0.16);
+}
+.p1 {
+  font-size: 23px;
+}
+.p2 {
+  color: gray;
+}
+.mob-viewtab button {
+  background-color: #2874f0;
+  color: white;
+  border-radius: 2px;
+  height: 33px;
+  width: 90px;
+  border: none;
+}
+.mobile-secondary {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 1px 1px 1px rgba(29, 29, 29, 0.16);
+}
+.mob-master {
+  display: flex;
+  flex-direction: column;
+}
+.mob img {
+  height: 200px;
+}
+.mob {
+  text-align: center;
+}
+.description-id {
+  text-align: center;
+}
+.Electronic-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.EC-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0px 1px 4px 0 rgba(29, 29, 29, 0.16);
+}
+.EC-secondary {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 1px 1px 1px rgba(29, 29, 29, 0.16);
+}
+.EC-master {
+  display: flex;
+  flex-direction: column;
+}
+.EC img {
+  height: 200px;
+  width: 200px;
+}
+.EC-viewtab button {
+  background-color: #2874f0;
+  color: white;
+  border-radius: 2px;
+  height: 33px;
+  width: 90px;
+  border: none;
+}
+.mensfootware {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.mens-primary {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  box-shadow: 0px 1px 4px 0 rgba(29, 29, 29, 0.16);
+}
+.mens-secondary {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 1px 1px rgba(29, 29, 29, 0.16);
+}
+.Mens-master {
+  display: flex;
+  flex-direction: column;
+}
+.Foot img {
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+}
+.mens-primary button {
+  background-color: #2874f0;
+  color: white;
+  border-radius: 2px;
+  height: 33px;
+  width: 90px;
+  border: none;
+}
